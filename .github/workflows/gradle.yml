@@ -26,7 +26,7 @@ jobs:
 
       # Build project
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradle build
 
       # Upload JAR artifact (use v4)
       - name: Upload JAR artifact
